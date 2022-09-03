@@ -1,0 +1,13 @@
+<div class="card">
+    <img [src]= "card.url" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{card.name}}</h5>
+      <p class="card-text"></p>
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">{{formatDate (card.date)}}</small>
+        <div class="text-center">
+            <app-stars [card]="card"></app-stars>
+        </div>
+      </div>
+</div>

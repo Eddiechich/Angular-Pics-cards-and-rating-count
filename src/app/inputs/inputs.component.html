@@ -1,0 +1,18 @@
+<div class="container mt-5">
+    <div class="mb-3">
+      <label for="picname" class="form-label">Picture Name</label>
+      <input type="text" class="form-control" id="name" placeholder="NAME HERE" #name>
+    </div>
+    <div class="mb-3">
+      <label for="picurl" class="form-label">Picture URL</label>
+      <input type="url" class="form-control" id="url" placeholder="URL HERE" #url>
+    </div>
+    <button (click)="addPic(name,url)" type="button" class="btn btn-primary btn-lg btn-block">ADD</button>
+    
+    <app-display-cards [pic]="picArray"></app-display-cards>
+    </div>
+
+<!-- <p *ngFor="let pic of picArray"><img src= "{{pic}}" alt="pic" style="width: 200px; height: 200px;"></p> 
+<p id="namep" *ngFor="let namep of names"></p>
+ -->
+
