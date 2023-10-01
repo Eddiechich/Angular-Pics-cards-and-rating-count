@@ -1,3 +1,6 @@
+# this is used to upload pics and count rating of pic.
+
+
 # Pictures
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
